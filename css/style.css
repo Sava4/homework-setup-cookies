@@ -1,0 +1,141 @@
+.container {
+    font-family: 'Arimo', Courier, sans-serif;
+    font-size: 16px;
+    color: rgba(72,72,72,255);
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.table {
+    table-layout: auto;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.table td {
+    height: 70px;
+    vertical-align: middle;
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+}
+
+.table tbody > tr {background-color: #f2f2f2;}
+
+ th {
+    background-color: #fafafa;
+    height: 70px;
+    vertical-align: middle;
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+}
+
+.table > tbody tr:nth-child(even) { background-color: #e3e3e3; }
+
+.first-column { width: 310px; }
+
+.other-column { 
+    width: 277px;
+ }
+
+.standard {
+    background-color: #89c331;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ultimate {
+    background-color: #f04a56;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.premium {
+    background-color: #20807c;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.accent-numbers {
+    font-size: 60px;
+    font-weight: bold;
+    height: 86px;
+    color: rgba(72,72,72,255);
+}
+
+.icon {
+    font-size: 24px;
+    color: rgba(132, 132, 132, 255);
+    vertical-align: sub;
+    margin-right: 12px;
+}
+
+.cent-month-dib {
+    display: inline-block;
+    text-align: left;
+}
+
+.cent {
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.month { font-size: 18px; }
+
+.plan1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.plan2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.plan-dib { display: inline-block; }
+
+.contact { background-color: #ddd;}
+
+.button {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding: 18px 0 13px 0;
+    border-radius: 10px;
+    width: 192px;
+    height: 49px;
+    box-sizing: border-box;
+    display: inline-block; 
+}
+
+.contact-us { 
+    border-bottom: 7px solid #404040;
+    background-color: #484848; 
+}
+
+.buy-gr {
+    border-bottom: 7px solid #79b027;
+    background-color: #89c331; 
+}
+
+.buy-red {
+    border-bottom: 7px solid #df3a46;
+    background-color: #f04a56;
+}
+
+.buy-teal {
+    border-bottom: 7px solid #16736f;
+    background-color: #20807c;
+}
+
+.button:hover {
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 20px;
+    border-bottom: none;
+}
