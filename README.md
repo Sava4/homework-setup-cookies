@@ -1,3 +1,3 @@
-# Whatismyip-await
+# Cookies
 
-Preview: https://sava4.github.io/Whatismyip-await/
+Preview: https://sava4.github.io/homework-setup-cookies/
